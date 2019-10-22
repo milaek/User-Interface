@@ -72,11 +72,17 @@ h1, h2, h3, h4, h5 {
 
 }
 
+.inline {
+	display: inline-block
+}
 .TextBox {
-
+	display: inline-block;
 }
 
-.CenterBarImg {
+.Center {
+	margin: auto;
+}
+.middle-img {
 
 }
 .Thirds {
@@ -84,5 +90,5 @@ h1, h2, h3, h4, h5 {
 }
 
 #Copyright {
-	
+
 }
