@@ -64,6 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+h1 {
+	font-size: 150px;
+}
+
+
 .Tagline {
 
 }
@@ -72,8 +82,13 @@ h1, h2, h3, h4, h5 {
 
 }
 
+.logo {
+	display: inline-block;
+	margin-left: 100px;
+}
+
 .inline {
-	display: inline-block
+	display: inline-block;
 }
 .TextBox {
 	display: inline-block;
@@ -91,4 +106,14 @@ h1, h2, h3, h4, h5 {
 
 #Copyright {
 
+}
+nav {
+	position: relative;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+nav a {
+	text-decoration: none;
+	color: gray;	
+	margin: 45px;
 }
