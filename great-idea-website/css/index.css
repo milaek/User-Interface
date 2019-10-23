@@ -69,18 +69,35 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
 h1 {
-	font-size: 85px;
+	font-size: 80px;
 }
 
+h3 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 17px;
+}
+
+hr {
+	border-top: 2px solid black;
+	width: 1100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 
 .Tagline {
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	width: 400px;
-	margin-right: 150px;
-	margin-left: 225px;
-	margin-top: 150px;
+	margin-right: 175px;
+	margin-left: 200px;
+	margin-top: 125px;
+	margin-bottom: 100px;
 }
 
 .StartButton {
@@ -97,8 +114,9 @@ h1 {
 	margin-left: 100px;
 }
 
-.inline {
+.Inline {
 	display: inline-block;
+
 }
 .TextBox {
 	display: inline-block;
@@ -126,4 +144,22 @@ nav a {
 	text-decoration: none;
 	color: gray;	
 	margin: 45px;
+}
+
+div.Inline {
+	height: 200px;
+	width: 500px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+
+}
+
+div.Inline.L {
+	margin-left: 120px;
+	margin-right: 65px;
+}
+
+
+img.Inline {
+	margin-top: 100px;
 }
